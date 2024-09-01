@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Nerko+One&family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: aquamarine;
+    flex-direction: column;
+
+}
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid black;
+    padding: 20px;
+    width: 90vw;
+    height: auto;
+    border-radius: 10px;
+    background-color: aqua;
+}
+
+
+.quote{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+button{
+    margin-top: 40px;
+    margin-bottom: 10px;
+    padding: 10px;
+    background-color: beige;
+    border-radius: 10px ;
+    font-size: 1.5em;
+    font-weight: 600;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+
+h2{
+    font-size: 2em;
+    margin: 10px;
+    font-family: "Noto Sans";
+}
+
+h3{
+    font-size: 1.7em;
+}
+
+
+button:hover{
+    background-color:cadetblue;
+    box-shadow: 3px 3px 3px;
+    cursor: pointer;
+}
+
+/* .input-quote{
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+    border: 1px solid blueviolet;
+    width: 90vw;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+    background-color: aqua;
+
+}
+
+input{
+    margin: 20px;
+    width: 80vw;
+    padding: 20px 10px 20px 10px;
+    border-radius: 10px;
+    border: 1px solid white;
+    font-size: 1.5em;
+    font-weight: 600;
+}
+
+input::placeholder{
+    font-weight: 600;
+}
+
+
+#submit-button{
+    margin-bottom: 30px;
+} */

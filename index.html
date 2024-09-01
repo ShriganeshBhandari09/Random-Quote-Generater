@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Nerko+One&family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body onload="generateQuoteOnPageLoading()">
+
+    <div class="container">
+      <div class="quote">
+        <h2 id="quote"></h2>
+        <h3 id="author"></h3>
+        <button onclick="quoteGenerator()">Random Quote Generator</button>
+        <!-- <button onclick="openForm()">Submit a Quote</button> -->
+      </div>
+    </div>
+    <!-- <div class="quote-submitter">
+        <div class="input-quote">
+            <input type="text" name="Give a quote" id="submitted-quote" placeholder="Add a Quote" required/>
+            <input type="text" name="author" id="given-author" placeholder="Author" required/>
+            <button onclick="addQuote()" id="submit-button">Submit a Quote</button>
+          </div>
+    </div> -->
+    <script src="script.js"></script>
+  </body>
+</html>
