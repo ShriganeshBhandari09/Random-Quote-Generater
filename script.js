@@ -1310,7 +1310,7 @@ function generateQuoteOnPageLoading() {
 
 function quoteGenerator() {
   var quoteNumber = Math.floor(Math.random() * quotesArray.length);
-  console.log(quoteNumber);
+//   console.log(quoteNumber);
   quote.innerHTML = quotesArray[quoteNumber].text;
   quoteBy.innerHTML = `- '${quotesArray[quoteNumber].from}'`;
 }
