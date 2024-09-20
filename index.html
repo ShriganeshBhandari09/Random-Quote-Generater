@@ -13,22 +13,33 @@
     />
   </head>
   <body onload="generateQuoteOnPageLoading()">
-
     <div class="container">
       <div class="quote">
         <h2 id="quote"></h2>
         <h3 id="author"></h3>
-        <button onclick="quoteGenerator()">Random Quote Generator</button>
+        <button onclick="quoteGenerator()">Generate a Quote</button>
         <!-- <button onclick="openForm()">Submit a Quote</button> -->
       </div>
     </div>
-    <!-- <div class="quote-submitter">
-        <div class="input-quote">
-            <input type="text" name="Give a quote" id="submitted-quote" placeholder="Add a Quote" required/>
-            <input type="text" name="author" id="given-author" placeholder="Author" required/>
-            <button onclick="addQuote()" id="submit-button">Submit a Quote</button>
-          </div>
-    </div> -->
+    <div class="quote-submitter">
+      <div class="input-quote">
+        <input
+          type="text"
+          name="Give a quote"
+          id="submitted-quote"
+          placeholder="Add a Quote"
+          required
+        />
+        <input
+          type="text"
+          name="author"
+          id="given-author"
+          placeholder="Author"
+          required
+        />
+        <button onclick="addQuote()" id="submit-button">Submit a Quote</button>
+      </div>
+    </div>
     <script src="script.js"></script>
   </body>
 </html>

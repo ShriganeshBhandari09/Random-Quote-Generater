@@ -1310,26 +1310,22 @@ function generateQuoteOnPageLoading() {
 
 function quoteGenerator() {
   var quoteNumber = Math.floor(Math.random() * quotesArray.length);
-//   console.log(quoteNumber);
+  console.log(quoteNumber);
   quote.innerHTML = quotesArray[quoteNumber].text;
   quoteBy.innerHTML = `- '${quotesArray[quoteNumber].from}'`;
 }
 
-// function addQuote() {
-//   var givenQuote = document.getElementById("submitted-quote");
-//   var author = document.getElementById("given-author");
+function addQuote() {
+  var givenQuote = document.getElementById("submitted-quote");
+  var author = document.getElementById("given-author");
 
-//   if (givenQuote || author === "") {
-//     window.alert("Please enter a quote");
-//   } else {
-//     var quoteObject = new Object();
-//     quoteObject.text = givenQuote.value;
-//     quoteObject.from = author.value;
-//     quotesArray.push(quoteObject)
-//     window.alert("Added a quote")
-//     console.log(quoteObject)
-//     console.log(quotesArray)
-//     givenQuote.value = ""
-//     author.value = ""
-//   }
-// }
+  var quoteObject = new Object();
+  quoteObject.text = givenQuote.value;
+  quoteObject.from = author.value;
+  quotesArray.push(quoteObject);
+  window.alert("Added a quote");
+  console.log(quoteObject);
+  console.log(quotesArray);
+  givenQuote.value = "";
+  author.value = "";
+}
